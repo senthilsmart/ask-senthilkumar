@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Entry</title>
+    <style>
+      div {
+        margin-top: 50px;
+        height: 200px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      form {
+        border: 1px solid;
+        border-radius: 5px;
+        padding: 16px;
+      }
+
+      .form-label {
+        display: block;
+        padding: 10px;
+      }
+
+      .form-content {
+        display: block;
+        padding: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 style="text-align: center">User Data Entry</h2>
+    <div>
+      <form action="submit" title="User Data Entry">
+        <label for="usrname" class="form-label">User Name</label>
+        <input
+          type="text"
+          class="form-content"
+          name="usrname"
+          placeholder="Enter your username"
+          required
+        />
+
+        <label for="usrEmail" class="form-label">Email</label>
+        <input
+          type="email"
+          class="form-content"
+          name="usrEmail"
+          placeholder="Please enter your email"
+        />
+
+        <label for="usrPhone" class="form-label">Phone Number</label>
+        <input
+          type="text"
+          class="form-content"
+          name="usrPhone"
+          maxlength="10"
+        />
+
+        <br />
+
+        <button type="'submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
