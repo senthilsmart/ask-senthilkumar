@@ -1,2 +1,3 @@
 # ask-senthilkumar
-Senthil's newly created repository for full stack developer training
+# Welcome to my Github Page, Happy to see you!
+## Hi Am Senthilkumar, Full stack software developer trainee
